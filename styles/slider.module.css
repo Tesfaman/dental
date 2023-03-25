@@ -1,0 +1,68 @@
+.sliders {
+  width: 100%;
+  height: 450px;
+}
+
+.texxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boxx {
+  width: 1100px;
+  height: 400px;
+  margin: 20px 250px;
+}
+
+.boxxx {
+  height: 230px;
+  width: 210px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxxx .ttxt {
+  position: absolute;
+}
+
+.ttxt h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.ttxt p {
+  font-size: 13px;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.boxxx:hover {
+  height: 250px;
+  width: 230px;
+  transition: 0.3s;
+}
+
+.boxxx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .sliders {
+    width: 100%;
+    height: 400px;
+  }
+  .boxx {
+    width: 100%;
+    margin: 40px 0px;
+  }
+  .boxxx {
+    margin-left: 15px;
+  }
+}
